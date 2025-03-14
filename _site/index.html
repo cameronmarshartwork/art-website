@@ -5,9 +5,9 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Home | El_photography</title>
-  <meta name="description" content="Discovering the world with my vision.">
-  <meta name="author" content="Disha Patel">
+  <title>Home | Cameron Marsh Artwork</title>
+  <meta name="description" content="">
+  <meta name="author" content="Cameron Marsh">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -25,7 +25,7 @@
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/svg" href="/assets/img/logo.svg">
+  <!-- <link rel="icon" type="image/svg" href="/assets/img/logo.svg"> -->
 
 </head>
 <body>
@@ -33,14 +33,9 @@
  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<div class="section header">
 	<div class="container">
-		<img src="/assets/img/logo.svg" />
-		<h3 class="section-heading">photography</h3>
-		<p class="section-description">
-			Discovering the world with my vision.
-		</p>
+		<h1 class="section-heading">Cameron Marsh Artwork</h1>
 		<div id="navbar-wrapper">
 			<div id="navbar">
-				<img id="brand" class="hide" src="/assets/img/logo.svg" />
 				
 				
 				<a class="button" href="/">home</a>
@@ -86,14 +81,10 @@
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<div class="section footer dark">
     <div class="container">
-        <img src="/assets/img/logo_dark.svg">
-        <p class="section-description">Get in touch.</p>
         <div class="social">
-            <a href="https://www.instagram.com/diisshhaashh/"><i class="fab fa-instagram"></i></a>
-            <a href="mailto:dishap71@gmail.com"><i class="fas fa-paper-plane"></i></a>
+            <a href="https://www.instagram.com/cmarshart/"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:cameronmarshartwork@gmail.com"><i class="fas fa-paper-plane"></i></a>
         </div>
-        <p>Copyright <i class="fas fa-copyright"></i> 2019 All Rights Reserved.</p>
-        <p class="credit">Made with <i class="fas fa-heart"></i> by <a target="_blank" href="https://samd97.github.io">Saumil Shah</a>.</p>
     </div>
 </div>
 
@@ -108,7 +99,6 @@
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
-var brand = document.getElementById("brand");
 var height = navbar.offsetHeight; // find height of the navbar
 var sticky = navbar.offsetTop + height; // find y-pos of the navbar
 
@@ -118,11 +108,8 @@ wrapper.style.height = height + "px";
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
-    brand.classList.remove("hide");
-    brand.classList.add("fade");
   } else {
     navbar.classList.remove("sticky");
-    brand.classList.add("hide");
   }
 }
 </script>

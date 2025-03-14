@@ -1,13 +1,9 @@
 <div class="section footer dark">
     <div class="container">
-        <img src="{{ "/assets/img/logo_dark.svg" | relative_url }}">
-        <p class="section-description">Get in touch.</p>
         <div class="social">
-            <a href="https://www.instagram.com/diisshhaashh/"><i class="fab fa-instagram"></i></a>
-            <a href="mailto:dishap71@gmail.com"><i class="fas fa-paper-plane"></i></a>
+            <a href="https://www.instagram.com/cmarshart/"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:cameronmarshartwork@gmail.com"><i class="fas fa-paper-plane"></i></a>
         </div>
-        <p>Copyright <i class="fas fa-copyright"></i> 2019 All Rights Reserved.</p>
-        <p class="credit">Made with <i class="fas fa-heart"></i> by <a target="_blank" href="https://samd97.github.io">Saumil Shah</a>.</p>
     </div>
 </div>
 
@@ -22,7 +18,6 @@
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
-var brand = document.getElementById("brand");
 var height = navbar.offsetHeight; // find height of the navbar
 var sticky = navbar.offsetTop + height; // find y-pos of the navbar
 
@@ -32,11 +27,8 @@ wrapper.style.height = height + "px";
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
-    brand.classList.remove("hide");
-    brand.classList.add("fade");
   } else {
     navbar.classList.remove("sticky");
-    brand.classList.add("hide");
   }
 }
 </script>
