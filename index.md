@@ -24,21 +24,28 @@ order: 1
 		<div class="row" id="gallery">
 			{% assign coll = site.collections | where: "label", "home" | first %}
 			{% assign list = coll.files | sort: "basename" %}
-			<!--{% assign l = coll.files.size | divided_by: 2 | ceil %}-->
-			<div class="column">
-				{% for image in list limit: 1 %}
+			{% assign l = coll.files.size | divided_by: 2 | ceil %}
+			<!-- <div class="column">
+				{% for image in list limit: 2 %}
 				<article class="thumb">
 					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
 				</article>
 				{% endfor %}
-			</div>
-			<!--<div class="one-half column">
+			</div> -->
+			<div class="one-half column">
 				{% for image in list offset: l %}
 				<article class="thumb">
 					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
 				</article>
 				{% endfor %}
-			</div>-->
+			</div>
+			<div class="one-half column">
+				{% for image in list offset: l+1 %}
+				<article class="thumb">
+					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
+				</article>
+				{% endfor %}
+			</div>
 		</div>
 	</div>
 </div>

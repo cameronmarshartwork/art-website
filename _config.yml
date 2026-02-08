@@ -11,29 +11,11 @@ collections_dir: series
 collections:
   home:
     output: true
-  pondi:
-    output: true
-  kochi:
-    output: true
-  rj_women:
-    output: true
-  venice:
-    output: true
-  chinatown:
-    output: true
-  rimi:
-    output: true
-  london:
-    output: true
-  mumbai:
-    output: true
-  cn_fishnet:
-    output: true
-  market:
+  etching:
     output: 
-  bastilleday:
+  lanscape:
     output: true
-  kathakali:
+  figure:
     output: true 
 
 markdown: kramdown
