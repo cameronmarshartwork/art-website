@@ -1,6 +1,6 @@
 ---
-title: about
-layout: rest
+title: About
+layout: gallery
 description: my new endeavour
 type: parent
 order: 2
