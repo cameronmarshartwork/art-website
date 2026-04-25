@@ -12,7 +12,7 @@ collections:
   home:
     output: true
   etching:
-    output: 
+    output: true 
   lanscape:
     output: true
   figure:

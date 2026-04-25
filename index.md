@@ -6,8 +6,7 @@ order: 1
 ---
 
 <div class="section header">
-	<div class="container">
-		<h1 class="section-heading">Cameron Marsh Artwork</h1>
+		<h1 class="section-heading">CAMERON MARSH ARTWORK</h1>
 		<div id="navbar-wrapper">
 			<div id="navbar">
 				{% assign mypages = site.pages | where: "type", "parent" | sort: "order" %}
@@ -16,7 +15,6 @@ order: 1
 				{% endfor %}
 			</div>
 		</div>
-	</div>
 </div>
 
 <div class="section main">
