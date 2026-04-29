@@ -1,6 +1,6 @@
 ---
-title: Figure
-layout: gallery
+title: figure
+layout: default
 description: I try to make people pose sometimes.
 type: parent
 order: 3

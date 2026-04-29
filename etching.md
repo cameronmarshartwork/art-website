@@ -1,6 +1,6 @@
 ---
-title: Etching
-layout: gallery
+title: etching
+layout: default 
 description: I try to make people pose sometimes.
 type: parent
 order: 4
